@@ -1,0 +1,190 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F4C2C2;
+    color: #333;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+
+header {
+    background-color:#87CEEB;
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+	color: #00008B;
+}
+
+header h1 {
+    font-size: 48px;
+}
+
+header h1 span {
+    color: white;
+}
+
+header p {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+header .btn {
+    background-color:  #00008B;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.profile {
+    flex: 1;
+    text-align: center;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.info {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.info h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.info p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+.skills {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.skills h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.skills ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.skills li {
+    font-size: 20px;
+}
+
+/* Projects Section */
+.projects {
+    padding: 50px 0;
+}
+
+.projects h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.project-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.project-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    text-align: center;
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.project-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.project-card .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+.contact {
+    background-color: #87CEEB;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+	
+}
+
+.contact .btn {
+    background-color: #FFD700;
+    padding: 5px 20px;
+    font-size: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 18px;
+}
+
+footer p {
+    font-size: 16px;
+	
+}
