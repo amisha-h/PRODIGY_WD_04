@@ -1,11 +1,9 @@
-
-
 document.querySelectorAll('.btn').forEach(button => {
     button.addEventListener('mouseover', () => {
-        button.style.backgroundColor = '#45a049';
+        button.style.transform = 'scale(1.05)';
     });
-    
+
     button.addEventListener('mouseout', () => {
-        button.style.backgroundColor = '#FFD700';
+        button.style.transform = 'scale(1)';
     });
 });
